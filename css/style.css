@@ -1,0 +1,30 @@
+body {
+    font-family:Raleway;
+    background-color: #AD0011;
+    color: #82FA9D;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:"Abril Fatface";
+    font-size:50pt;
+}
+
+header {
+    text-align: center;
+}
+
+#hero, footer {
+    color: #3DAD56;
+    border: 10px solid #3DAD56;
+    background-color:#FF9EA8;
+    text-align: center;
+    padding: 10px;
+}
+
+#hero img {
+    width:400px;
+}
+
+#bio {
+    text-align: center;
+}
