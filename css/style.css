@@ -122,6 +122,7 @@ header {
 
 }
 
+/* tablet size */
 @media screen and (min-width: 60em) {
 
     figure {
@@ -136,7 +137,36 @@ header {
         font-size: 2rem;
         margin-left: 1rem;
     }
-    
+
+    #lit div {
+        max-width: 100%;
+        columns: 40rem;
+    }   
 }
+
+/* large screen size */
+
+@media screen and (min-width: 100em) {
+
+    #gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    hr {
+        display: none;
+    }
+
+    #gallery h2 {
+        grid-column: 1/-1;
+    }
+
+    figure {
+        display: block;
+    }
+    
+
+}
+
 
 
