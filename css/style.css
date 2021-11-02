@@ -186,3 +186,6 @@ header {
     width: 100%;
 }
 
+#formElements {
+    display: grid;
+}
