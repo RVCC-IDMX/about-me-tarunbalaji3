@@ -188,4 +188,66 @@ header {
 
 #formElements {
     display: grid;
+    row-gap: .5em;
+}
+
+/* form */
+
+#contact {
+    padding: 1rem;
+    max-width: 600px;
+    margin: 2em auto;
+
+}
+
+fieldset {
+    border: 2px solid #3DAD56;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 3rem;
+}
+
+legend {
+    background-color: #3DAD56;
+    color: white;
+    padding: .5em;
+    border-radius: 2rem; 
+}
+
+#contact input, #contact textarea, #contact select, #contact button {
+    padding: .5em;
+    font-size: 1rem;
+}
+
+#contact ul {
+    list-style: none;
+    padding: 0px;
+}
+
+#contact li {
+    margin: 1rem; 
+}
+
+#contact button {
+    background-color: #3DAD56;
+    color: white;
+    border: 1px solid #82FA9D;
+    max-width: 400px;
+    width: 50%;
+    justify-self: center;
+    border-radius: 2rem;
+}
+
+#message {
+    resize:vertical;
+    max-height: 200px;
+}
+
+#contact input, #message {
+    border: 1px solid #3DAD56;
+}
+
+#contact button:hover {
+    background-color: #fa818d;
+    color: black;
 }
