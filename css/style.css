@@ -1,7 +1,7 @@
 body {
     font-family:Raleway;
-    background-color: #AD0011;
-    color: #82FA9D;
+    background-color: #0820a9;
+    color: #00f6e6;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -21,9 +21,9 @@ header {
 }
 
 #hero, footer {
-    color: #3DAD56;
-    border: 10px solid #3DAD56;
-    background-color:#FF9EA8;
+    color: #00f6e6;
+    border: 10px solid #fa7331;
+    background-color: #a71700;
     text-align: center;
     padding: 10px;
 }
@@ -49,7 +49,7 @@ header {
 }
 
 #hobbies ul li:nth-child(odd){
-    color: #000;
+    color: #0820a9;
 }
 
 #hobbies ul li:nth-child(even){
@@ -60,9 +60,9 @@ header {
 
     border: 5px groove black;
     border-radius: 18px;
-    background-color: #FF9EA8;
+    background-color: #0820a9;
     box-shadow: 10px 10px 10px 10px black;
-    background-image: radial-gradient(#AD0011, white);
+    background-image: radial-gradient(#fa7331,#a71700);
 
 }
 
@@ -82,11 +82,15 @@ header {
 }
 
 #gallery {
-    background-image: radial-gradient(white,#AD0011);
+    background-image: radial-gradient(#fa7331,#a71700);
 }
 
 #gallery {
     color: black;
+}
+
+#gallery h2 {
+    color: #00f6e6;
 }
 
 /*Literature*/
@@ -111,7 +115,7 @@ header {
 
 #lit div p:first-child:first-letter {
     color:white;
-    background-image: radial-gradient(black, #FF9EA8);
+    background-image: radial-gradient(black, #fa7331);
     float:left;
     font-size: 5em;
     margin-right: .25em;
@@ -201,14 +205,14 @@ header {
 }
 
 fieldset {
-    border: 2px solid #3DAD56;
+    border: 2px solid #fa7331;
     margin-top: 1em;
     margin-bottom: 1em;
     border-radius: 3rem;
 }
 
 legend {
-    background-color: #3DAD56;
+    background-color: #a71700;
     color: white;
     padding: .5em;
     border-radius: 2rem; 
@@ -229,9 +233,9 @@ legend {
 }
 
 #contact button {
-    background-color: #3DAD56;
+    background-color: #a71700;
     color: white;
-    border: 1px solid #82FA9D;
+    border: 1px solid #fa7331;
     max-width: 400px;
     width: 50%;
     justify-self: center;
@@ -244,10 +248,10 @@ legend {
 }
 
 #contact input, #message {
-    border: 1px solid #3DAD56;
+    border: 1px solid #fa7331;
 }
 
 #contact button:hover {
-    background-color: #fa818d;
+    background-color: #fa7331;
     color: black;
 }
