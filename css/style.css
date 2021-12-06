@@ -40,6 +40,13 @@ header {
     text-align: center;
 }
 
+#bio img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border: solid black 2px;
+}
+
 /*Hobbies Section*/
 
 #hobbies {
@@ -75,6 +82,10 @@ header {
 
 #gallery img {
     max-width: 100%;
+}
+
+#gallery img:hover {
+    border: solid black 3px;
 }
 
 #gallery figure {
@@ -124,6 +135,16 @@ header {
     border: 4px solid black;
     border-radius: 75px;
 
+}
+
+/* links */
+
+a {
+    color: #00f6e6;
+}
+
+a:visited {
+    color: white; 
 }
 
 /* tablet size */
