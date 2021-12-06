@@ -122,6 +122,15 @@ header {
     padding: 0.3rem 0;
 }
 
+#lit img {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /*Dropcaps*/
 
 #lit div p:first-child:first-letter {

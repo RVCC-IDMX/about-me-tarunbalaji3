@@ -22,6 +22,16 @@ I orginally picked a horrible color scheme during week 5. While choosing a color
 
 I added a link to a deep house track, [Tchami - "Adieu"](https://www.youtube.com/watch?v=kr0_YzOQf5A).
 
+Resources for Blog Article:
+
+[Introduction to variable fonts on the web](https://web.dev/variable-fonts/)
+
+[Variable Fonts Are Here to Stay](https://design.google/library/variable-fonts-are-here-to-stay/)
+
+[Variable fonts guide](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Fonts/Variable_Fonts_Guide)
+
+[Variable font image](https://commons.wikimedia.org/wiki/File:Interpolation_variable_fonts.png)
+
 
 ##### License 
 
