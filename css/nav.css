@@ -79,6 +79,70 @@ main {
     outline: none;
 }
 
+
+/* hamburger menu */ 
+
+
+.nav__toggle {
+    position: absolute;
+    cursor: pointer;
+    margin: 0rem 1rem;
+    right: 0;
+
+}
+
+.navbar svg {
+    width: 1.5rem;
+    fill:white;
+}
+
+.close {
+    display: none;
+}
+
+.menu {
+    margin: 0.2rem;
+}
+
+.nav__checkbox {
+    display: none;
+}
+
+.navbar-links li {
+    display: none;
+}
+
+#nav__checkbox:checked ~ .navbar-links li {
+    display: block;
+}
+
+#nav__checkbox:checked ~ label.nav__toggle .close {
+    display: block;
+}
+
+#nav__checkbox:checked ~ label.nav__toggle .menu {
+    display: none;
+}
+
+/* Desktop view */ 
+
+@media only screen and (min-width:560px) {
+    .nav__toggle {
+        display: none;
+    }
+
+    .navbar-links {
+        flex-direction: row;
+    }
+
+    .navbar-links li {
+        display: block;
+    }
+
+    
+}
+
+
 /* 
 media query for non-mobile nav bar
 min-width set to width of nav elements 

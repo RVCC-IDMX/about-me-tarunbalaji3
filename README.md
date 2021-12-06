@@ -32,6 +32,12 @@ Resources for Blog Article:
 
 [Variable font image](https://commons.wikimedia.org/wiki/File:Interpolation_variable_fonts.png)
 
+Resources for Nav Bar:
+
+[Hamburger Icon](https://icons8.com/icons/set/hamburger-menu)
+
+[Close Icon](https://icons8.com/icons/set/close)
+
 
 ##### License 
 
@@ -43,3 +49,8 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 I found the structure of this project and the class to be engaging and informative. Learning about each the different elements weekly and then applying them to the project was a great way to apply what we learned. It was very satisfying to see everything come together at the end to form the website. Creating the web form was my favorite part of the About Me project. I found both HTML and CSS easy to learn. However, I struggle to remember all the different syntax for CSS, so VSCode's code completion feature helps in this aspect. I plan on practicing using flexbox and grid more because of it's importance in responsive design. 
 
 At the start of the class, I didn't think web design was all that important because of how often I use my phone over my laptop. I incorrectly believed that applications on phones was the only type of interface that mattered. But as the class progressed, I started to realize the importance of web design more and more. Even on my phone, I use the Safari app to browse through the internet frequently and I began to notice more examples of unresponsive web design. By the end of the class, I saw how fundamental building web pages is to interface design as a whole. Even with how dominant applications on phones are, a lot of time is also spent on web pages. I've come to value web design and I see now how the fundamentals of developing a web page applies to creating applications. I truly appreciate how this class changed my view on web pages. Thank you for teaching this class Professor Caruso. 
+
+
+##### Nav Bar 
+
+Used Responsive Navigation Bar Only CSS | Mobile First Design tutorial to create the nav bar. Icons used for nav bar listed in citations.
